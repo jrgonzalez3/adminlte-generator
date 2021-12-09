@@ -9,17 +9,23 @@
     "license": "MIT",
     "require": {
         "php": "^7.3|^8.0",
+        "appointer/swaggervel": "dev-master",
         "doctrine/dbal": "~2.3",
         "fideloper/proxy": "^4.4",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
-        "infyomlabs/adminlte-templates": "^2.0",
+        "infyomlabs/adminlte-templates": "^3.0",
         "infyomlabs/laravel-generator": "8.0.x-dev",
+        "infyomlabs/swagger-generator": "dev-master",
         "ladumor/one-signal": "^0.3.4",
         "laravel/framework": "^8.12",
         "laravel/tinker": "^2.5",
-        "laravel/ui": "3.0",
-        "laravelcollective/html": "^6.2"
+        "laravel/ui": "^3.0",
+        "laravelcollective/html": "^6.2",
+        "yajra/laravel-datatables": "^1.5.0",
+        "yajra/laravel-datatables-buttons": "^4.0",
+        "yajra/laravel-datatables-oracle": "^9.18",
+        "zircote/swagger-php": "^2.0"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
@@ -29,6 +35,12 @@
         "nunomaduro/collision": "^5.0",
         "phpunit/phpunit": "^9.3.3"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:InfyOmLabs/swaggervel.git"
+        }
+    ],
     "config": {
         "optimize-autoloader": true,
         "preferred-install": "dist",

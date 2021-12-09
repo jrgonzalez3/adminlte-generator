@@ -97,8 +97,9 @@ return [
     |
     */
 
-    'templates'         => 'adminlte-templates',
-
+    'templates'          => 'adminlte-templates',
+    // 'templates'             => 'stisla-templates',
+    // 'templates'          => 'coreui-templates',
     /*
     |--------------------------------------------------------------------------
     | Model extend class
@@ -170,11 +171,11 @@ return [
 
     'add_on' => [
 
-        'swagger'       => false,
+        'swagger'       => true,
 
         'tests'         => true,
 
-        'datatables'    => false,
+        'datatables'    => true,
 
         'menu'          => [
 
